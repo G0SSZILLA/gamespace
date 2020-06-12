@@ -1,17 +1,14 @@
 <template>
+  <div class="Home">
    
-    <header class="Home">
-      
-    </header>
-
+  </div>
 </template>
 
 
 <script>
-
 export default {
   name: "Home",
- 
+
   data() {
     return {};
   },
@@ -23,4 +20,5 @@ export default {
 
 
 <style scoped>
+
 </style>
