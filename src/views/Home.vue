@@ -1,14 +1,14 @@
 <template>
    
     <header class="Home">
-      <div>{{}}</div>
+      
     </header>
 
 </template>
 
 
 <script>
-import Friends from "./Friends"
+
 export default {
   name: "Home",
  
