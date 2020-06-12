@@ -30,10 +30,12 @@
 
     <div class="col-3 p-0 ml-4 justify-content-end d-flex">
       <p class="pt-3 text-white">Justin Goss</p>
+      <span>
       <img
         class="ml-3"
         style="height:3rem;"
         src="https://img.icons8.com/ios-glyphs/40/000000/user--v1.png"/>
+        ▼</span>
     </div>
 
     <button
