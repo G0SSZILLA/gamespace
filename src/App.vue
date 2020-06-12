@@ -1,12 +1,33 @@
 <template>
   <div id="app">
-    <div id="nav">
+    <navbar />
+    <!-- <div id="nav">
       <router-link to="/">Home</router-link> |
       <router-link to="/about">About</router-link>
-    </div>
+    </div> -->
     <router-view />
   </div>
 </template>
+
+<script>
+import Navbar from "./components/Navbar";
+// import { onAuth } from "@bcwdev/auth0-vue";
+export default {
+  name: "App",
+  // async beforeCreate() {
+  //   try {
+  //     await onAuth();
+  //     this.$store.dispatch("setBearer", this.$auth.bearer);
+  //     this.$store.dispatch("getProfile");
+  //   } catch (err) {
+  //     this.$router.push({ name: "home" });
+  //   }
+  // },
+  components: {
+    Navbar
+  }
+};
+</script>
 
 <style>
 #app {
